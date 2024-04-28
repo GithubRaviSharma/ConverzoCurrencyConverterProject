@@ -1,0 +1,40 @@
+.justified {
+    text-align: justify;
+  }
+ .header-background {
+background-image: url(./Images/BackgroundFinal.png);
+background-size: cover;
+background-position: center;
+}
+
+.header-image {
+  position: absolute;
+  top: 32%;
+  left: 8%; /* Adjust the value as needed */
+  transform: translateY(-50%);
+  width: 250px; /* Adjust size as needed */
+  height: 250px; /* Adjust size as needed */
+  border-radius: 50%;
+}
+
+
+.header-text {
+margin-left: 260px; /* Adjust the value based on image width and margin */
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .header-image {
+    margin-top: 37%;
+    margin-left: 4%;
+  }
+}
+
+
+@media only screen and (min-width: 769px) {
+.card-container .w3-quarter {
+  width: calc(100% / 4);
+  max-width: none;
+  flex-basis: auto;
+}
+}

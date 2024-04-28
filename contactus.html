@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="./Images/ConverzoIcon.png">
+    <title>Contact us</title>
+    <style>
+        body {
+            background-color: rgba(24, 27, 108, 255) !important; /* Choose the color you want for the sides */
+            background-size: cover;
+            background-position: center;
+            overflow-y: auto; /* Allow vertical scrolling */
+            font-family: 'Poppins', sans-serif; /* Set font family to Poppins */
+        }
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        .container {
+            background-image: url('contact-bg.jpg');
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .card {
+            padding: 2rem;
+            text-align: center;
+            background-color: rgba(100, 120, 237, 255)b;
+            height: 630px;
+            width: 700px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+            border: 1rem solid rgba(100, 120, 237, 255);
+        }
+    
+        .card h1 {
+            font-size: 4rem;
+            color: #fff;
+        }
+    
+        .card p {
+            color: #fff;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+    
+        .input-field {
+            margin: 3rem;
+            position: relative;
+        }
+    
+        .card input {
+            width: 100%;
+            background-color: transparent;
+            padding: 1rem;
+            border: none;
+            outline: none; /* Remove the outline property */
+            border-bottom: 2px solid #0d99d7;
+            color: #fff;
+            font-size: 1rem;
+        }
+    
+        label {
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            color: #93d1ec;
+            transition: all 0.3s ease-in-out;
+        }
+    
+        .input-field:last-child .submit {
+            width: 200px;
+            border: 2px solid #fff;
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 3rem; /* Add margin to the submit button */
+
+        }
+    
+      
+        input:focus~label,
+        input:valid~label {
+            transform: translateY(-30px);
+        }
+    </style>
+    
+    
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="f1d0c622-1345-4b66-8fb4-e742bb587031">
+                <h1>Contact us!</h1>
+                <p>Feel free to leave your feedback, We are all ears!</p>
+                <div class="input-field">
+                    <input type="text" name="name">
+                    <label for="">Name:</label>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="email">
+                    <label for="">Email Id:</label>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="message">
+                    <label for="">Your message:</label>
+                </div>
+                <div class="input-field">
+                    <input type="submit" class="submit" value="Submit">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

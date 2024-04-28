@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Converzo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="index.css"> <!-- Link to external CSS file -->
+<link rel="icon"  href="./Images/ConverzoIcon.png">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-indigo w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#about-id" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="#currency-id" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Currencies</a>
+    <a href="#exhangerate-id" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Exchange Rates</a>
+    <a href="#privacy-id" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Privacy Policy</a>
+    <a href="Contactus.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right"><i class="fa fa-address-book"></i></a>
+    </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#about-id" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Currencies</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Exchange Rate</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center header-background" style="padding:128px 16px;">
+ <!--  <img src="https://img.freepik.com/free-vector/hand-drawn-cartoon-money-illustration_23-2150939383.jpg?w=740" alt="Your Image" class="header-image"> -->
+  <div class="header-text">
+    <h1 class="w3-jumbo w3-serif w3-text-bold" style="margin-left: -600px;">Converzo Currency Converter</h1>
+    <p class="w3-medium  w3-sans-serif w3-text-bold" style="margin-left: -600px;">*Kept up-to-date ensuring precise exchange rates.</p>
+    <a href="converter.html"><button  class="w3-button w3-indigo w3-padding-large w3-large w3-margin-top"style="margin-left: -600px; border: 3px solid black;">Get Started</button></a>
+  </div>
+</header>
+
+
+  
+  
+  
+<div id="about-id" class="w3-row-padding w3-container">
+  <div class="w3-content" style="padding-top: 40px; padding-bottom: 30px;">
+    <div class="w3-twothird">
+      <h1 style="font-family:Arial, Helvetica, sans-serif;">What is Converzo?</h1>
+      <h5 class="w3-padding-32 w3-sans" >Converzo is an innovative online currency converter meticulously crafted to streamline currency conversions for users 
+        worldwide. Whether you're a traveler planning your next adventure or a business owner managing international transactions,
+         Converzo provides a seamless and efficient solution for converting currencies accurately and effortlessly.</h5>
+
+      <p class="w3-text-grey justified">At its core, Converzo is engineered to deliver unparalleled accuracy and efficiency in 
+        currency conversions. With Converzo, users can swiftly and effortlessly convert between different currencies with just a few clicks, eliminating the hassle and guesswork 
+        associated with traditional conversion methods.
+        One of the key features that sets Converzo apart is its intuitive interface, designed to provide a seamless 
+        and intuitive user experience.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-cny w3-padding-64 w3-text-indigo" style="font-size: 350px; margin-left: 170px;"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-32 w3-container">
+  <div class="w3-content" style="padding-top: 40px; padding-bottom: 30px;">
+    <div class="w3-third w3-center">
+      <i class=" fa fa-barcode	
+      w3-padding-64 w3-text-indigo" style="font-size: 330px; margin-left: -250px;"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1  style="font-family:Arial, Helvetica, sans-serif;">Why should you use Converzo?</h1>
+      <h5 class="w3-padding-32">Converzo utilizes advanced APIs (Application Programming Interfaces) to ensure that currency exchange rates are updated in real-time, 
+        24 hours a day. Through the integration of reliable and trusted APIs, Converzo continuously fetches the latest exchange rate data from various financial sources across the globe.</h5>
+
+      <p class="w3-text-grey justified">By leveraging these APIs, Converzo dynamically adjusts exchange rates based on fluctuations in the global financial markets. This ensures that users always have access to the most up-to-date and 
+        accurate conversion rates, enabling them to make informed decisions when converting currencies for their specific needs.</p>
+        <p class="w3-text-grey justified">With Converzo, you can rely on timely and precise currency conversions, allowing you to stay ahead in today's fast-paced global economy.</p>
+    </div>
+  </div>
+</div>
+
+
+<div id="currency-id" class="w3-container w3-center" style="margin-top: 0; padding-top: 0;">
+  <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: 50px;">Global Currency Coverage on Converzo!</h1>
+  <p style="margin-bottom: 50px;">*list of all the currencies to which you can convert using Converzo</p>
+</div>
+
+
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/us.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">USD - United States Dollar </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/ae.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">AED - UAE Dirham</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/ar.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">ARS - Argentinian Peso</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/au.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">AUD - Australian Dollar</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/bg.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">BGN - Bulgarian Lev </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/br.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">BRL - Brazilian Real</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/bs.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">BSD - Bahamian Dollar</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/ca.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">CAD - Canadian Dollar</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/ch.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">CHF - Swiss Franc </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/cl.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">CLP - Chilean Peso</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/cn.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">CNY - Chinese Yuan Renminbi</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/co.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">COP - Colombian Peso</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/cz.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">CZK - Czech Koruna </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/dk.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">DKK - Danish Krone</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/do.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">DOP - Dominican Peso</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/eg.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">EGP - Egyptian Pound</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/mc.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">MCO - Monoco Euro </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/fj.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">FJD - Fijian Dollar</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/gb.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">GBP - British Pound Sterling</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/gt.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">GTQ - Guatemalan Quetzal</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/hk.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">HKD - Hong Kong Dollar </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/hr.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">HRK - Croatian Kuna</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/hu.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">HUF - Hungarian Forint</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/id.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">IDR - Indonesian Rupiah</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/il.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">ILS - Israeli Shekel </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/in.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">INR - Indian Rupee</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/is.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">ISK - Icelandic Krona</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/jp.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">JPY - Japanese Yen</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/kr.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">KRW - South Korean Won </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/kz.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">KZT - Kazakhstani Tenge</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/mv.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">MVR - Maldivian Rufiyaa</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/mx.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">MXN - Mexican Peso</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/my.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">MYR - Malaysian Ringgit </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/no.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">NOK - Norwegian Krone</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/nz.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">NZD - New Zealand Dollar</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/pa.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">PAB - Panamanian Balboa</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/pe.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">PEN - Peruvian Nuevo Sol </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/ph.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">PHP - Philippine Peso</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/pk.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">PKR - Pakistani Rupee</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/pl.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">PLN - Polish Zloty</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/py.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">PYG - Paraguayan Guarani</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/ro.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">RON - Romanian Leu</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/ru.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">RUB - Russian Ruble</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/sa.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">SAR - Saudi Riyal</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/se.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">SEK - Swedish Krona </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/sg.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">SGD - Singapore Dollar</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/th.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">THB - Thai Baht</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/tr.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">TRY - Turkish Lira</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-row-padding" style="margin-bottom: 20px;"> <!-- Add margin to the first row -->
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/tt.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">TDB - Trinidad and Tobago Dollar </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/ua.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">UAH - Ukrainian Hryvnia</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/uy.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p  class="w3-center">UYU - Uruguagyan Peso</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter">
+    <div class="w3-card-4">
+      <img src="./Flags/za.png" alt="Car" style="width:100%">
+      <div class="w3-container">
+        <p class="w3-center">ZAR - South African Rand</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  <div id = "exhangerate-id" class="w3-container w3-light-grey" style="margin-top: 70px;">
+    <hr>
+    <div class="w3-center">
+      <div id="currency-id" class="w3-container w3-center" style="margin-top: 0; padding-top: 0;">
+        <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: 50px;">Currencies Exchange Rates Against Dollars!</h1>
+        <p style="margin-bottom: 50px;">*The data was last updated on April,2024</p>
+      </div>    
+    </div>
+  <div class="w3-responsive w3-card-4">
+  <table class="w3-table w3-striped w3-bordered">
+  <thead>
+  <tr class="w3-indigo">
+    <th>Currency Code</th>
+    <th>Currency Name</th>
+    <th>Value against United States Dollars</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr class="w3-white">
+      <td>USD</td>
+    <td>United States Dollars</td>
+    <td>1.00</td>
+  </tr>
+  <tr class="w3-white">
+    <td>AED</td>
+    <td>UAE Dirham</td>
+    <td>0.27</td>
+  </tr>
+  <tr class="w3-white">
+    <td>ARS</td>
+    <td>Argentinian Peso</td>
+    <td>0.0012</td>
+  </tr>
+  <tr class="w3-white">
+    <td>AUD</td>
+    <td>Australian Dollar</td>
+    <td>0.66</td>
+  </tr>
+  <tr class="w3-white">
+    <td>BGN</td>
+    <td>Bulgarian Lev</td>
+    <td>0.55</td>
+  </tr>
+  <tr class="w3-white">
+    <td>BRL</td>
+    <td>Brazilian Real</td>
+    <td>0.20</td>
+  </tr>
+  <tr class="w3-white">
+    <td>BSD</td>
+    <td>Bahamian Dollar</td>
+    <td>1.00</td>
+  </tr>
+  <tr class="w3-white">
+    <td>CHF</td>
+    <td>Swiss Franc</td>
+    <td>1.11</td>
+  </tr>
+  <tr class="w3-white">
+    <td>CLP</td>
+    <td>Chilean Peso</td>
+    <td>0.0011</td>
+  </tr>
+  <tr class="w3-white">
+    <td>CNY</td>
+    <td>Chinese Yuan Renminbi</td>
+    <td>014</td>
+  </tr>
+  <tr class="w3-white">
+    <td>COP</td>
+    <td>Colombian Peso</td>
+    <td>0.00027</td>
+  </tr>
+  <tr class="w3-white">
+    <td>CZK</td>
+    <td>Czech Koruna</td>
+    <td>0.043</td>
+  </tr>
+  <tr class="w3-white">
+    <td>DOP/td>
+    <td>Dominican Peso</td>
+    <td>0.017</td>
+  </tr>
+  <tr class="w3-white">
+    <td>EGP</td>
+    <td>Egyptian Pound</td>
+    <td>0.021</td>
+  </tr>
+  <tr class="w3-white">
+    <td>MCO</td>
+    <td>Monoco Euro</td>
+    <td>2.30</td>
+  </tr>
+  <tr class="w3-white">
+    <td>FJD</td>
+    <td>Fijian Dollar</td>
+    <td>0.45</td>
+  </tr>  
+  <tr class="w3-white">
+    <td>GBP</td>
+    <td>British Pound Sterling</td>
+    <td>1.26</td>
+  </tr>
+  <tr class="w3-white">
+    <td>GTQ</td>
+    <td>Guatemalan Quetzal</td>
+    <td>0.13</td>
+  </tr>
+ 
+  <tr class="w3-white">
+    <td>HKD</td>
+    <td>Hong Kong Dollar</td>
+    <td>0.13</td>
+  </tr>
+  <tr class="w3-white">
+    <td>HRK</td>
+    <td>Croatian Kuna</td>
+    <td>0.14</td>
+  </tr>
+  <tr class="w3-white">
+    <td>HUF</td>
+    <td>Hungarian Forint</td>
+    <td>0.0028</td>
+  </tr>
+  <tr class="w3-white">
+    <td>IDR</td>
+    <td>Indonesian Rupiah</td>
+    <td>0.000063</td>
+  </tr>
+  <tr class="w3-white">
+    <td>ILS</td>
+    <td>Israeli Shekel</td>
+    <td>0.27</td>
+  </tr>
+  <tr class="w3-white">
+    <td>INR</td>
+    <td>Indian Rupee</td>
+    <td>0.012</td>
+  </tr>
+  <tr class="w3-white">
+    <td>ISK</td>
+    <td>Icelandic Krona</td>
+    <td>0.0072</td>
+  </tr>
+  <tr class="w3-white">
+    <td>JPY</td>
+    <td>Japanese Yen</td>
+    <td>0.0066</td>
+  </tr>
+  <tr class="w3-white">
+    <td>KRW</td>
+    <td>South Korean Won</td>
+    <td>0.000074</td>
+  </tr>
+  <tr class="w3-white">
+    <td>KZT</td>
+    <td>Kazakhstani Tenge</td>
+    <td>0.0022</td>
+  </tr>
+  <tr class="w3-white">
+    <td>MXM</td>
+    <td>Mexican Peso</td>
+    <td>0.061</td>
+  </tr>
+  <tr class="w3-white">
+    <td>MYR</td>
+    <td>Malaysian Ringgit</td>
+    <td>0.21</td>
+  </tr>
+  <tr class="w3-white">
+    <td>NOK</td>
+    <td>Norwegian Krone</td>
+    <td>0.093</td>
+  </tr>
+  <tr class="w3-white">
+    <td>NZD</td>
+    <td>New Zealand Dollar</td>
+    <td>0.60</td>
+  </tr>
+  <tr class="w3-white">
+    <td>PAB</td>
+    <td>Panamanian Balboa</td>
+    <td>1.00</td>
+  </tr>
+  <tr class="w3-white">
+    <td>RON</td>
+    <td>Romanian Leu</td>
+    <td>0.22</td>
+  </tr>
+  <tr class="w3-white">
+    <td>RUB</td>
+    <td>Russian Ruble</td>
+    <td>0.011</td>
+  </tr>
+  <tr class="w3-white">
+    <td>SAR</td>
+    <td>Saudi Riyal</td>
+    <td>0.27</td>
+  </tr>
+  <tr class="w3-white">
+    <td>SEK</td>
+    <td>Swedish Krona</td>
+    <td>0.094</td>
+  </tr>
+  <tr class="w3-white">
+    <td>SGD</td>
+    <td>Singapore Dollar</td>
+    <td>0.74</td>
+  </tr>
+  <tr class="w3-white">
+    <td>THB</td>
+    <td>Thai Baht</td>
+    <td>0.027</td>
+  </tr>
+  <tr class="w3-white">
+    <td>TRY</td>
+    <td>Turkish Lira</td>
+    <td>0.031</td>
+  </tr>
+  <tr class="w3-white">
+    <td>TDB</td>
+    <td>Trinidad and Tobago Dollar</td>
+    <td>0.027</td>
+  </tr>
+  <tr class="w3-white">
+    <td>UAH</td>
+    <td>Ukrainian Hryvnia</td>
+    <td>0.026</td>
+  </tr>
+  <tr class="w3-white">
+    <td>UYU</td>
+    <td>Uruguagyan Peso</td>
+    <td>0.026</td>
+  </tr>
+  <tr class="w3-white">
+    <td>ZAR</td>
+    <td>South African Rand</td>
+    <td>0.053</td>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+  
+
+  <div id="privacy-id" class="w3-container w3-black w3-center w3-opacity w3-padding-64" style="margin-top: 30px; margin-bottom: 30px;">
+    <h1 class="w3-margin w3-xxlarge" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" style="margin-bottom: 30px;" >Privacy Policy</h1>
+    
+    <div class="w3-container w3-card w3-white w3-margin-bottom " >
+        <p class="w3-text-black w3-padding" style="margin-bottom: 30px;" >
+            At Converzo, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you use our online currency converter.
+        </p>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <p class="w3-text-black w3-padding">
+            1. Information Collection
+            We may collect personal information, such as your name and email address, when you voluntarily provide it to us for specific purposes like account registration or feedback submission.
+            We also collect non-personal information, such as your IP address and browsing behavior, using cookies and similar technologies to improve our services and user experience.
+        </p>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <p class="w3-text-black w3-bold w3-padding">
+            2. Use of Information
+            We use the information we collect to provide and improve our services, communicate with you, and comply with legal obligations. We do not sell or share your personal information with third parties without your consent.
+        </p>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <p class="w3-text-black w3-padding">
+            3. Data Security
+            We implement security measures to protect your personal information from unauthorized access, disclosure, or alteration. However, please note that no method of transmission over the internet is completely secure.
+        </p>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <p class="w3-text-black w3-padding">
+            4. Data Retention
+            We retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy. Once your information is no longer needed, we will securely delete or anonymize it.        </p>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+      <p class="w3-text-black w3-padding">
+          5. Children's Privacy
+          Converzo is not intended for children under the age of 13. We do not knowingly collect personal information from children, and if we become aware of such information being collected, we will take steps to delete it.
+      </p>
+  </div>
+    <footer class="w3-container w3-padding-32 w3-center w3-opacity">  
+      <div class="w3-xlarge w3-padding-16">
+        <a href="https://github.com/GithubRaviSharma" target="_blank" class="w3-text-white w3-hover-text-white"><i class="fa fa-github w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/raevii_/" target="_blank" class="w3-text-white w3-hover-text-white"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://in.pinterest.com/dellieframe/" target="_blank" class="w3-text-white w3-hover-text-white"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+        <a href="https://twitter.com/raviiiiiiiiiii_" target="_blank" class="w3-text-white w3-hover-text-white"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/ravi-sharma-586838287/" target="_blank" class="w3-text-white w3-hover-text-white"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+      </div>
+    </footer>
+    
+    
+    
+    <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+</div>
+
+
+
+
+</body>
+</html>
