@@ -1,8 +1,8 @@
-# Converzo:
+# Converzo
 
 Converzo is an innovative online currency conversion platform designed to provide users with a seamless interface for converting currencies conveniently and efficiently. Whether you're a traveler, an international business professional, or simply someone managing finances across different countries, Converzo offers a user-friendly solution to meet your currency conversion needs.
 
-## Features:
+## Features
 
 - **Seamless Interface**: Converzo boasts a user-friendly interface, making currency conversion a hassle-free experience for users of all levels.
   
@@ -12,7 +12,7 @@ Converzo is an innovative online currency conversion platform designed to provid
   
 - **Responsive Design**: Converzo is optimized for various devices, including desktops, laptops, tablets, and smartphones, ensuring a consistent and seamless user experience across different platforms.
 
-## Supported Currencies:
+## Supported Currencies
 
 - USD - United States Dollar
 - AED - United Arab Emirates Dirham
@@ -67,13 +67,13 @@ Converzo is an innovative online currency conversion platform designed to provid
 - UYU - Uruguayan Peso
 - ZAR - South African Rand
 
-## Demo:
+## Demo
 You can access a walkthrough of the tool [here](https://githubravisharma.github.io/ConverzoCurrencyConverterProject/).
 
-## Contributing:
+## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-## Acknowledgements:
+## Acknowledgements
 - HTML: Utilized HTML for structuring the web pages.
 - Custom CSS: Designed custom CSS styles to enhance the visual presentation.
 - JavaScript: Employed JavaScript for client-side functionality.
