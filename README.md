@@ -68,7 +68,7 @@ Converzo is an innovative online currency conversion platform designed to provid
 - ZAR - South African Rand
 
 ## Demo
-You can access a walkthrough of the tool [here](https://githubravisharma.github.io/ConverzoCurrencyConverterProject/).
+You can checkout the tool [here](https://githubravisharma.github.io/ConverzoCurrencyConverterProject/).
 
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
