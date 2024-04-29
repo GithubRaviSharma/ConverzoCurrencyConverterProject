@@ -73,7 +73,7 @@ You can access a walkthrough of the tool [here](https://githubravisharma.github.
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-Acknowledgements:
+## Acknowledgements:
 - HTML: Utilized HTML for structuring the web pages.
 - Custom CSS: Designed custom CSS styles to enhance the visual presentation.
 - JavaScript: Employed JavaScript for client-side functionality.
