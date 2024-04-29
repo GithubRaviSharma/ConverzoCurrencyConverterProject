@@ -67,9 +67,19 @@ Converzo is an innovative online currency conversion platform designed to provid
 - UYU - Uruguayan Peso
 - ZAR - South African Rand
 
-## Usage
+## Demo
+You can access a walkthrough of the tool [here](https://githubravisharma.github.io/ConverzoCurrencyConverterProject/).
 
-Simply visit the Converzo website and start converting currencies instantly!
+## Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+Acknowledgements:
+- HTML: Utilized HTML for structuring the web pages.
+- Custom CSS: Designed custom CSS styles to enhance the visual presentation.
+- JavaScript: Employed JavaScript for client-side functionality.
+- Currency Conversion API: Leveraged openexchangerate's for real-time currency conversion.
+
+
 
 
 
